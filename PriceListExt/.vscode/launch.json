@@ -1,5 +1,19 @@
 {
     "version": "0.2.0",
     "configurations": [
+        {
+            "name": "BC365",
+            "type": "al",
+            "request": "launch",
+            "environmentType": "Sandbox",
+            "environmentName": "BCNOTEST",
+            "breakOnError": "All",
+            "breakOnRecordWrite": "None",
+            "enableSqlInformationDebugger": true,
+            "enableLongRunningSqlStatements": true,
+            "longRunningSqlStatementsThreshold": 500,
+            "numberOfSqlStatements": 10,
+       
+        }
     ]
 }
